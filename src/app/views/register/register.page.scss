@@ -1,0 +1,20 @@
+.bgr{
+    height: 220px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.form{
+    padding: 25px 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(/assets/img/bg_sec.png);
+  position: absolute;
+ top: 22%;
+}
