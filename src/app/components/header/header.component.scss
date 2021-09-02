@@ -2,22 +2,15 @@
     font-family: 'Poppins', sans-serif;
 }
 
-ion-toolbar{
-    --background-color: transparent;
-    --ion-color-base: transparent !important;
-   
-}
+ion-toolbar {
+    --ion-toolbar-background-color: transparent;
+    --ion-toolbar-text-color: white;
+    }
 
-ion-header{
-    --background-color: transparent;
-    --ion-color-base: transparent !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 ion-title{
-    --color: #0B1D39;
+    --color: #0b1d39;
     text-align: center;
    padding: 0px;
    font-weight: 700;
@@ -27,5 +20,5 @@ ion-title{
 
 
 ion-back-button{
-    color: #0B1D39;
+    color: #0b1d39;
 }
